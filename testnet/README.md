@@ -3,7 +3,7 @@
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/launch
 cd launch/testnet/
-crescent init <validator-name>
+crescentd init <validator-name>
 rm ~/.crescent/config/genesis.json
 tar -zxvf genesis.json.tar.gz
 cp genesis.json ~/.crescent/config/
