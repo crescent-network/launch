@@ -20,8 +20,18 @@ b2e097a4415757281a1611090c54e0187d0c9933991a07eed8423beea5a8ce1b
 
 
 # Tentnet info
+
+## Crescent Binary
 ```bash
 # Use git to clone the source code and install `crescentd`
+git clone https://github.com/crescent-network/crescent
+cd crescent
+git checkout v1.0.0-rc2
+make install
+```
+
+## Genesis setting
+```bash
 git clone https://github.com/crescent-network/launch
 cd launch/testnet/
 rm ~/.crescent/config/genesis.json
