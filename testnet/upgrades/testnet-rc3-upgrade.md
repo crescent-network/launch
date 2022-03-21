@@ -1,6 +1,4 @@
-# Upgrade Docs Template
-
-# mooncat-1-1, ****testnet-rc3**** Upgrade, Instructions
+# mooncat-1-1, testnet-rc3 Upgrade, Instructions
 
 This document describes the steps for validator and full node operators for the successful execution of the `testnet-rc3`
 
@@ -46,11 +44,11 @@ There are 2 major ways to upgrade a node:
 
 - Manual upgrade
 - Upgrade using [Cosmovisor](https://github.com/cosmos/cosmos-sdk/tree/master/cosmovisor)
-    - Either by manually preparing the new binary
+    - by manually preparing the new binary
 
 If you prefer to use Cosmovisor to upgrade, some preparation work is needed before upgrade.
 
-### Method I: manual upgrade
+### Method I: manual upgrade (Recommended)
 
 Run Crescent v1.0.0-rc2 till upgrade height, the node will panic:
 
@@ -145,7 +143,7 @@ ERR UPGRADE "testnet-rc3" NEEDED at height: 60100: upgrade to testnet-rc3 and ap
 This may take 20 min to a few hours.
 After this, the chain will continue to produce blocks when validators with a total sum voting power > 2/3 complete their nodes upgrades.
 
-### ~~Method III: upgrade using Cosmovisor by auto-downloading the Crescent ****v1.0.0-rc3**** binary (not recommended!)~~
+### ~~Method III: upgrade using Cosmovisor by auto-downloading the Crescent ****v1.0.0-rc3**** binary~~
 
 This update is not applicable for this method, `binaries` is not set to upgrade-info of upgrade proposal, so please use method 1 and 2.
 
