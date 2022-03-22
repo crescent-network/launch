@@ -26,7 +26,7 @@ b2e097a4415757281a1611090c54e0187d0c9933991a07eed8423beea5a8ce1b
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/crescent
 cd crescent
-git checkout v1.0.0-rc2
+git checkout v1.0.0-rc3
 make install
 ```
 
