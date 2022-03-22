@@ -12,9 +12,9 @@ Upgrade Height : 60100
 
 Expected Upgrade Time : about UTC 2022-03-22 13:52:57
 
-Binary : [https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc3](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc3)
+Binary : Crescent [v1.0.0-rc2](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc2) -> [v1.0.0-rc3](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc3)
 
-## Upgrade will take place December 14, 2021
+## Upgrade will take place March 03, 2022
 
 The upgrade will take place at a block height of `60100`. At the time of writing, and at current block times (around 5.7s/block), this block height corresponds approximately to `UTC 2022-03-22 13:52:57`. This date/time is approximate as blocks are not generated at a constant interval. 
 
