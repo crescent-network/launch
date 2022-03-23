@@ -22,13 +22,16 @@ b2e097a4415757281a1611090c54e0187d0c9933991a07eed8423beea5a8ce1b
 # Tentnet info
 
 ## Crescent Binary
+
 ```bash
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/crescent
 cd crescent
-git checkout v1.0.0-rc3
+git checkout v1.0.0-rc2
 make install
 ```
+
+There was an [on-chain upgrade in the middle](https://github.com/crescent-network/launch/blob/main/testnet/upgrades/testnet-rc3-upgrade.md), so please use `v1.0.0-rc2` to sync up to `60100` block height and then use `v1.0.0-rc3`.
 
 ## Genesis setting
 ```bash
