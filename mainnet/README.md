@@ -6,7 +6,7 @@ cd launch/mainnet/
 crescentd init <validator-name>
 rm ~/.crescent/config/genesis.json
 tar -zxvf crescent-1-genesis-for-gentx.json.tar.gz
-cp crescent-1-genesis-for-gentx.json ~/.crescent/config/
+cp crescent-1-genesis-for-gentx.json ~/.crescent/config/genesis.json
 crescentd gentx <validator-keyname> 1000000ucre --commission-max-change-rate 1 --commission-max-rate 1  --commission-rate 0.2 --min-self-delegation 1 --pubkey=$(crescentd tendermint show-validator) --chain-id crescent-1
 cd ~/.crescent/config/gentx
 ```
