@@ -8,6 +8,7 @@ https://github.com/crescent-network/crescent/releases/tag/v1.0.0
 git clone https://github.com/crescent-network/launch
 cd launch/mainnet/crescent-1
 tar -zxvf genesis.json.tar.gz
+mkdir -p ~/.crescent/config
 cp genesis.json ~/.crescent/config/genesis.json
 crescentd start
 ```
