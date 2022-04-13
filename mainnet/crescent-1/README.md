@@ -1,5 +1,6 @@
 # Chain start Cli Command
-Mainnet genesis binary version\
+Mainnet genesis binary version
+
 https://github.com/crescent-network/crescent/releases/tag/v1.0.0
 
 ```bash
