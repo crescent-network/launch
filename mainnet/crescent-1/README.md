@@ -6,7 +6,7 @@ https://github.com/crescent-network/crescent/releases/tag/v1.0.0
 ```bash
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/launch
-cd launch/mainnet/
+cd launch/mainnet/crescent-1
 tar -zxvf genesis.json.tar.gz
 cp genesis.json ~/.crescent/config/genesis.json
 crescentd start
