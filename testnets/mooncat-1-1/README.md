@@ -5,7 +5,7 @@ Please use the following commands and locate your gentx in [gentx]((./gentx) fol
 ```bash
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/launch
-cd launch/testnet/
+cd launch/testnet/mooncat-1-1
 crescentd init <validator-name>
 rm ~/.crescent/config/genesis.json
 tar -zxvf genesis.json.tar.gz
@@ -38,7 +38,7 @@ There was an [on-chain upgrade in the middle](https://github.com/crescent-networ
 ## Genesis setting
 ```bash
 git clone https://github.com/crescent-network/launch
-cd launch/testnet/
+cd launch/testnet/mooncat-1-1
 rm ~/.crescent/config/genesis.json
 tar -zxvf genesis_collect-gentxs.json.tar.gz
 cp genesis_collect-gentxs.json ~/.crescent/config/genesis.json
