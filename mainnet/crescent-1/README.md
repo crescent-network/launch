@@ -1,7 +1,7 @@
 # Chain start Cli Command
 Mainnet genesis binary version
 
-https://github.com/crescent-network/crescent/releases/tag/v1.0.0
+https://github.com/crescent-network/crescent/releases/tag/v1.1.0
 
 ```bash
 # Use git to clone the source code and install `crescentd`
