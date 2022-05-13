@@ -59,7 +59,7 @@ ERR CONSENSUS FAILURE!!! err="UPGRADE "testnet-rc4" NEEDED at height: 365000
 
 ```
 
-Stop the node, and install [Crescent v1.0.0-rc4](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc4) and re-start by `crescentd start`.
+Stop the node, and install [Crescent v1.0.0-rc4](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc4) and re-start by `crescentd start --halt-height 1072528` for next upgrade.
 
 It may take 20 min to a few hours until validators with a total sum voting power > 2/3 to complete their nodes upgrades. After that, the chain can continue to produce blocks.
 
