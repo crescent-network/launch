@@ -36,7 +36,7 @@ However, the upgrade is likely to take place within six months. This is optional
 ## Node Config
 app.toml
 ```
-minimum-gas-prices = "0ucre"
+minimum-gas-prices = "0.01ucre,0.01ubcre"
 ```
 
 ## P2P info
