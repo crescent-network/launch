@@ -17,6 +17,13 @@ A repository for coordinating with Crescent genesis validators and documenting i
 - Genesis Time: `2022-04-13T00:00:00Z`
 - Core Version: [v1.1.0](https://github.com/crescent-network/crescent/releases/tag/v1.1.0)
 
+### July 18th, 2022 12:30:00 UTC
+
+- Chain ID: crescent-1
+- Upgrade Height: 1384100
+- Core Version: [v2.1.0](https://github.com/crescent-network/crescent/releases/tag/v2.1.0)
+
+
 ## Testnet Status
 
 ### March 18th, 2022 14:00:00 UTC 
