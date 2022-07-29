@@ -21,7 +21,7 @@ A repository for coordinating with Crescent genesis validators and documenting i
 
 - Chain ID: crescent-1
 - Upgrade Height: 1384100
-- Core Version: [v2.1.0](https://github.com/crescent-network/crescent/releases/tag/v2.1.0)
+- Core Version: [v2.1.1](https://github.com/crescent-network/crescent/releases/tag/v2.1.1)
 
 
 ## Testnet Status
