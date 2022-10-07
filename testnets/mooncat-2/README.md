@@ -4,7 +4,7 @@
 wget https://blocksnapshot.s3.ap-northeast-2.amazonaws.com/mooncat-2-genesis.json
 
 jq -S -c -M '' mooncat-2-genesis.json | shasum -a 256
-539416248f0f4501a5effed4b51b4908b4f3a3f025944a48e0476237a035828a
+61e61d3c7394bf579b00b541387e9efead6eab19dfd55e973dc0ba4c9fa1e3ce
 ```
 
 # Testnet Information

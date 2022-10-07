@@ -31,3 +31,9 @@ A repository for coordinating with Crescent genesis validators and documenting i
 - Chain ID: mooncat-1-1
 - Genesis Time: `2022-03-18T14:00:00Z`
 - Core Version: [v1.0.0-rc2](https://github.com/crescent-network/crescent/releases/tag/v1.0.0-rc2)
+
+### 2022 10-07 04:09:46 UTC 
+
+- Chain ID: mooncat-2
+- Genesis Time: `2022-10-07T04:09:46.065014743Z`
+- Core Version: [v2.1.1](https://github.com/crescent-network/crescent/releases/tag/v2.1.1)
