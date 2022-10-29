@@ -4,7 +4,7 @@
 wget https://blocksnapshot.s3.ap-northeast-2.amazonaws.com/mooncat-2-genesis.json
 
 jq -S -c -M '' mooncat-2-genesis.json | shasum -a 256
-61e61d3c7394bf579b00b541387e9efead6eab19dfd55e973dc0ba4c9fa1e3ce
+67579e3d15d0568fe9b9379a3d4076fbb57e9e813d5bed14352086c8688fcdeb
 ```
 
 # Testnet Information
@@ -13,11 +13,17 @@ jq -S -c -M '' mooncat-2-genesis.json | shasum -a 256
 
 Start is attempted with V2. Follow the upgrade procedure
 ```bash
+# START HEIGHT = 3126050
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/crescent
 cd crescent
-git checkout v2.1.1
+git checkout v2.3.0
 make install-testing
+crescentd start --halt-height 3126350
+# halt node
+git checkout bcf1cf8fab93411f9a8cc7654ddd1f115d040459
+make install-testing
+crescentd start 
 ```
 
 ## Node
