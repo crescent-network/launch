@@ -21,7 +21,7 @@ git checkout v2.3.0
 make install-testing
 crescentd start --halt-height 3126350
 # halt node
-git checkout bcf1cf8fab93411f9a8cc7654ddd1f115d040459
+git checkout v3.0.0-rc5
 make install-testing
 crescentd start 
 ```
