@@ -1,10 +1,10 @@
 # Genesis
 
 ```
-wget https://blocksnapshot.s3.ap-northeast-2.amazonaws.com/mooncat-2-3-genesis.json
+wget https://blocksnapshot.s3.ap-northeast-2.amazonaws.com/mooncat-2-external.json
 
-jq -S -c -M '' mooncat-2-3-genesis.json | shasum -a 256
-df8f8738d14e0630cf1eb09ecafde435bfae567dc712ff5971a1feceaf0558b1
+jq -S -c -M '' mooncat-2-external.json | shasum -a 256
+8bdf827a6626067b778767890a4fcdedf2afd73c2ba2a1f8663de93235078023
 ```
 
 # Testnet Information
@@ -13,15 +13,15 @@ df8f8738d14e0630cf1eb09ecafde435bfae567dc712ff5971a1feceaf0558b1
 
 Start is attempted with V2. Follow the upgrade procedure
 ```bash
-# START HEIGHT = 3494500
+# START HEIGHT = 3815000
 # Use git to clone the source code and install `crescentd`
 git clone https://github.com/crescent-network/crescent
 cd crescent
 git checkout v2.3.0
 make install
-crescentd start --halt-height 3494650
+crescentd start --halt-height 3815100
 # halt node
-git checkout v3.0.0-rc7
+git checkout v3.0.0
 make install
 crescentd start 
 ```
@@ -33,7 +33,7 @@ However, it is not possible to check the omitted block data. Additionally, you d
 ```bash
 git clone https://github.com/crescent-network/crescent
 cd crescent
-git checkout v3.0.0-rc7
+git checkout v3.0.0
 make install
 
 #!/bin/bash
@@ -56,7 +56,7 @@ crescentd start
 
 ## Node-peer
 ```
-9742094f68df5f1fb15010a1f0a2958e1b8c7124@52.74.77.1:26656,98609abcc39cb095ab74af76a59a136b31342681@54.255.86.57:26656
+9742094f68df5f1fb15010a1f0a2958e1b8c7124@52.74.77.1:26656
 ```
 ## endpoint
 ```
