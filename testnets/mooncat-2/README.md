@@ -56,7 +56,7 @@ crescentd start
 
 ## Node-peer
 ```
-9742094f68df5f1fb15010a1f0a2958e1b8c7124@52.74.77.1:26656
+89760782cc1fcf11ca8a1cdc3494a8d788699313@52.74.77.1:26656
 ```
 ## endpoint
 ```
