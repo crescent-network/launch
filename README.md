@@ -11,6 +11,12 @@ A repository for coordinating with Crescent genesis validators and documenting i
 
 ## Mainnet Status
 
+### 2023-01-11 06:00:00 UTC
+
+- Chain ID: crescent-1
+- Upgrade Height: 4415902
+- Core Version: [v4.0.0](https://github.com/crescent-network/crescent/releases/tag/v4.0.0)
+
 ### 2022-12-14 06:00:00 UTC
 
 - Chain ID: crescent-1
